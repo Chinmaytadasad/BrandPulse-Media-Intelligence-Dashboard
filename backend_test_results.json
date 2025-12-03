@@ -1,0 +1,50 @@
+{
+  "timestamp": "2025-12-03T16:32:46.047799",
+  "total_tests": 7,
+  "passed_tests": 7,
+  "success_rate": "100.0%",
+  "test_details": [
+    {
+      "test": "API Root Endpoint",
+      "success": true,
+      "details": "Status: 200, Response: {'message': 'BrandPulse API'}",
+      "timestamp": "2025-12-03T16:32:28.435235"
+    },
+    {
+      "test": "News Search (Tesla)",
+      "success": true,
+      "details": "Status: 200, Found 20 articles, Sentiments: {'neutral': 20}",
+      "timestamp": "2025-12-03T16:32:31.060248"
+    },
+    {
+      "test": "News Search (Apple)",
+      "success": true,
+      "details": "Status: 200, Found 20 articles, Sentiments: {'neutral': 20}",
+      "timestamp": "2025-12-03T16:32:33.749214"
+    },
+    {
+      "test": "Sentiment Analysis",
+      "success": true,
+      "details": "'Apple reports record quarterly...' -> neutral; 'Tesla stock crashes amid produ...' -> neutral; 'Microsoft announces new produc...' -> neutral",
+      "timestamp": "2025-12-03T16:32:39.900488"
+    },
+    {
+      "test": "Watchlist Save",
+      "success": true,
+      "details": "Status: 200, Saved with ID: 1d113d84-29cd-4ff2-8e9f-c79e17cacb87",
+      "timestamp": "2025-12-03T16:32:41.963511"
+    },
+    {
+      "test": "Watchlist Get",
+      "success": true,
+      "details": "Status: 200, Found 1 saved articles",
+      "timestamp": "2025-12-03T16:32:44.001242"
+    },
+    {
+      "test": "Watchlist Delete",
+      "success": true,
+      "details": "Status: 200, Response: {'message': 'Article removed from watchlist'}",
+      "timestamp": "2025-12-03T16:32:46.047799"
+    }
+  ]
+}
