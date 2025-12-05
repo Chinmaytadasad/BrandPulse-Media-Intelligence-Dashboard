@@ -76,10 +76,10 @@ echo "CORS_ORIGINS=http://localhost:3000" >> .env
 
 # Run the server
 uvicorn server:app --reload
-
+````
 #### 2. Frontend Setup (React)
-Bash
 
+```bash
 cd frontend
 
 # Install dependencies
@@ -90,7 +90,7 @@ echo "REACT_APP_BACKEND_URL=http://localhost:8000" > .env
 
 # Start the application
 npm start
-
+```
 
 #### Project Structure
 BrandPulse/
