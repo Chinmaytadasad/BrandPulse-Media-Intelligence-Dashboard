@@ -92,19 +92,5 @@ echo "REACT_APP_BACKEND_URL=http://localhost:8000" > .env
 npm start
 ```
 
-#### Project Structure
-BrandPulse/
-├── backend/
-│   ├── server.py         # FastAPI server & Logic
-│   ├── requirements.txt  # Python dependencies
-│   └── .env              # Backend config
-├── frontend/
-│   ├── src/
-│   │   ├── components/   # UI Components
-│   │   ├── App.js        # Main React Logic
-│   └── .env              # Frontend config
-└── README.md
-
-
 #### License
 This project is open-source and available for educational use.
